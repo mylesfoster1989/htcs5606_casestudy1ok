@@ -1,0 +1,129 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>homePage</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<div id = "header">
+
+    <h1>
+
+
+        <img src="../image/logo.PNG" height="84" width="230"/>
+        <div id="navigation1"> <!-- nav i will create my menu here-->
+            <ul> <!--use to create menu-->
+                <li><a  href="index.html">Home
+                </a></li>
+                <li><a href="Product.html">Products
+                </a></li>
+                <li><a href="#">Customer
+                </a></li>
+                <li><a href="#">Blogs
+                </a></li>
+                <li><a href="aboutus.html">About Us
+                </a></li>
+            </ul>
+        </div>
+        <hr>
+    </h1>
+
+</div>
+<div id= "main">
+    <div align="right">
+        <input type="search" id="numA">     <button onclick="searchStuff()">search</button>
+
+
+    </div>
+
+    <div align="right"><img src="../image/trolley.PNG" height="20" width="40"/>
+        <button onclick="logIn()">Log In</button>
+    </div>
+
+
+
+    <div id="navigation1">
+        <div align="center"> <li><a  href="index.html">Shop Now
+        </a></li>
+
+
+        </div>
+        <td id="middlecontent">
+
+            <div class="product">
+                <img src="image/image/download (6).jpg" height="225" width="225"/>
+                <p>$3.20 ea</p>
+                <p>
+                    qty:<input class="qty" id="breadQty" type="number">
+                    <button class = "addBut" id="addBread" onclick="addToCart(this)">Add to Cart</button>
+                </p>
+            </div>
+            <div class="product">
+
+
+                <img src="image/image/download (4).jpg" height="225" width="225"/>
+                <p>$2.90 ea</p>
+                <p>qty:<input class="qty" id="cheeseQty" type="number">
+                    <button class = "addBut" id="addCheese" onclick="addToCart(this)">Add to Cart</button>
+                </p>
+            </div>
+            <div class="product">
+                <img src="image/image/download (5).jpg" height="225" width="225"/>
+                <p>$9.00 ea</p>
+                <p>qty:<input class="qty" id="spreadQty" type="number">
+                    <button class = "addBut" id="addSpread" onclick="addToCart(this)">Add to Cart</button>
+                </p>
+            </div>
+            <div class="product">
+
+                <img src="image/image/download (3).jpg" height="225" width="225"/>
+                <p>$4.50 ea</p>
+                <p>qty:<input class="qty" id="milk1Qty" type="number">
+                    <button class = "addBut" id="addMilk1" onclick="addToCart(this)" price="4.50">Add to Cart</button>
+                </p>
+            </div>
+            <div class="product">
+
+                <img src="image/image/download (2).jpg" height="224" width="224"/>
+                <p>$2.32 ea</p>
+                <p>qty:<input class="qty" id="milk2Qty" type="number">
+                    <button class = "addBut" id="addMilk2" onclick="addToCart(this)" price="2.32">Add to Cart</button>
+                </p>
+            </div>
+        </td>
+
+
+
+
+
+
+
+        <div id="navigation"> <!-- nav i will create my menu here-->
+            <ul> <!--use to create menu-->
+                <li><a  href="https://www.github.com">
+
+                    <img src="../image/dog.jpg" height="239" width="210"/>
+                </a></li>
+                <li><a href="#"><img src="../image/cat.jpg" height="228" width="221"/>
+                </a></li>
+                <li><a href="#"><img src="../image/fish.png" height="165" width="305"/>
+                </a></li>
+                <li><a href="#"><img src="../image/reptile.png" height="188" width="268"/>
+                </a></li>
+                <li><a href="#"><img src="../image/small animals.jpg" height="174" width="290"/>
+                </a></li>
+                <li><a href="#"><img src="../image/chicken.png" height="189" width="267"/>
+                </a></li>
+                <li><a href="#"><img src="../image/bird.png" height="204" width="247"/>
+                </a></li>
+            </ul>
+            <div id="footer">&copy; School of Computing and Information, Unitec, NZ</div>
+        </div>
+</body>
+
+
+
+</html>
