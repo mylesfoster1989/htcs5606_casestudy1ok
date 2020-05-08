@@ -5,10 +5,15 @@ body{
 
 h1{
 
-     font-size: 40px;
+    font-size: 40px;
     font-family: "Yu Gothic";
 }
-/**/
+
+#navigation1{
+    font-size: 40px;
+    font-family: "Yu Gothic";
+
+}
 
 #navigation ul{
 
@@ -137,6 +142,3 @@ h1{
     to {transform: rotate(360deg); transform: scale(1);}
 
 }
-
-
-
