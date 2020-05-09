@@ -1,7 +1,0 @@
-function searchStuff() {
-
-}
-
-function logIn() {
-
-}

@@ -148,19 +148,7 @@ h1{
     text-align: center;
     color:white;
 }
-.product{
-    width:150px;
-    display: inline-block;
-    margin: 50px;
-    border-style: groove;
-    height:250px;
-}
+/*
+*/
+/*here*/
 
-.product img{
-    width:150px;
-    height:200px;
-}
-
-.qty {
-    width:30px;
-}
