@@ -142,3 +142,25 @@ h1{
     to {transform: rotate(360deg); transform: scale(1);}
 
 }
+
+#footer{
+    background-color: #333;
+    text-align: center;
+    color:white;
+}
+.product{
+    width:150px;
+    display: inline-block;
+    margin: 50px;
+    border-style: groove;
+    height:250px;
+}
+
+.product img{
+    width:150px;
+    height:200px;
+}
+
+.qty {
+    width:30px;
+}
