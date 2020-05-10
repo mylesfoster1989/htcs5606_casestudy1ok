@@ -1,10 +1,145 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Dog</title>
+    <script src="js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
-<body>
-$END$
+<body onload="moveAd(), moveText(), invoice()">
+<div id = "header">
+
+    <h1>
+
+        <img src="image/animal logo.PNG" height="110" width="169"/>
+
+        <div id="navigation1"> <!-- nav i will create my menu here-->
+            <ul> <!--use to create menu-->
+                <li><a  href="Index.html">Home
+                </a></li>
+                <li><a href="Product.html">Products
+                </a></li>
+                <li><a href="Career.html">Career
+                </a></li>
+                <li><a href="aboutus.html">About Us
+                </a></li>
+            </ul>
+        </div>
+        <hr>
+    </h1>
+
+</div>
+<div id= "main">
+    <div align="right">
+        <td id="rightside">
+            <p>Cart:</p>
+            <div id="cartDiv"></div>
+            <button id="showInvoiceBut">Invoice</button>
+        </td>
+
+
+    </div>
+
+
+    <div class="product">
+
+
+        <img src="image/image/New folder (2)/reptile/rep.jpg" height="298" width="169"/>
+        <p>$3.20 ea</p>
+        <p>qty:<input class="qty" id="breadQty" type="number">
+            <button class = "addBut" id="addBread" onclick="addToCart(this)">Add to Cart</button>
+        </p>
+    </div>
+    <div class="product">
+
+        <img src="image/image/New folder (2)/reptile/rep1.jpg" height="278" width="181"/>
+        <p>$2.90 ea</p>
+        <p>qty:<input class="qty" id="cheeseQty" type="number">
+            <button class = "addBut" id="addCheese" onclick="addToCart(this)">Add to Cart</button>
+        </p>
+    </div>
+    <div class="product">
+
+
+        <img src="image/image/New folder (2)/reptile/rep2.jpg" height="225" width="225"/>
+        <p>$9.00 ea</p>
+        <p>qty:<input class="qty" id="spreadQty" type="number">
+            <button class = "addBut" id="addSpread" onclick="addToCart(this)">Add to Cart</button>
+        </p>
+    </div>
+    <div class="product">
+
+        <img src="image/image/New folder (2)/reptile/rep3.jpg" height="238" width="212"/>
+        <p>$4.50 ea</p>
+        <p>qty:<input class="qty" id="milk1Qty" type="number">
+            <button class = "addBut" id="addMilk1" onclick="addToCart(this)" price="4.50">Add to Cart</button>
+        </p>
+    </div>
+    <div class="product">
+
+        <img src="image/image/New folder (2)/reptile/rep4.jpg" height="320" width="157"/>
+        <p>$2.32 ea</p>
+        <p>qty:<input class="qty" id="milk2Qty" type="number">
+            <button class = "addBut" id="addMilk2" onclick="addToCart(this)" price="2.32">Add to Cart</button>
+        </p>
+
+        <div class="product">
+
+            <img src="image/image/New folder (2)/reptile/rep5.jpg" height="285" width="177"/>
+            <p>$2.32 ea</p>
+            <p>qty:<input class="qty" id="milk2Qty" type="number">
+                <button class = "addBut" id="addMilk2" onclick="addToCart(this)" price="2.32">Add to Cart</button>
+            </p>
+        </div>
+
+        <div class="product">
+
+            <img src="image/image/New folder (2)/reptile/rep6.jpg" height="320" width="157"/>
+            <p>$2.32 ea</p>
+            <p>qty:<input class="qty" id="milk2Qty" type="number">
+                <button class = "addBut" id="addMilk2" onclick="addToCart(this)" price="2.32">Add to Cart</button>
+            </p>
+
+            <div class="product">
+
+                <img src="image/image/New folder (2)/reptile/rep7.jpg" height="184" width="273"/>
+                <p>$2.32 ea</p>
+                <p>qty:<input class="qty" id="milk2Qty" type="number">
+                    <button class = "addBut" id="addMilk2" onclick="addToCart(this)" price="2.32">Add to Cart</button>
+                </p>
+            </td>
+
+
+
+
+
+
+
+
+            <div id="navigation"> <!-- nav i will create my menu here-->
+                <ul> <!--use to create menu-->
+                    <li><a  href="Dog.html">
+
+                        <img src="image/dog.jpg"/>
+                    </a></li>
+
+                    <li><a href="Cat.html"><img src="image/cat.jpg"/>
+                    </a></li>
+                    <li><a href="Fish.html"><img src="image/fish.png"/>
+                    </a></li>
+                    <li><a href="Reptile.html"><img src="image/reptile.png"/>
+                    </a></li>
+                    <li><a href="SmallAnimal.html"><img src="image/small animals.jpg"/>
+                    </a></li>
+                    <li><a href="Chicken.html"><img src="image/chicken.png"/>
+                    </a></li>
+                    <li><a href="Bird.html"><img src="image/bird.png"/>
+                    </a></li>
+                </ul>
+                <div id="footer">&copy; Animals, Unitec, NZ</div>
+            </div>
 </body>
+
+
+
 </html>
