@@ -6,12 +6,14 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
-<body onload="moveAd(), moveText(), invoice()">
+<body onload="leftDividerAnimation(), invoice()">
 <div id = "header">
 
-    <h1>
 
-        <img src="image/animal logo.PNG" height="110" width="169"/>
+    <div id = "leftDiv">
+        <img id ="leftDivPic" src="image/animal logo.PNG" />
+    </div>
+    <h1>
 
         <div id="navigation1"> <!-- nav i will create my menu here-->
             <ul> <!--use to create menu-->
@@ -131,6 +133,18 @@
         </ul>
         <div id="footer">&copy; Animals, Unitec, NZ</div>
     </div>
+            <!--under here
+
+        <!-- The Voice Page -->
+            <div id="voicePage" class="voice">
+
+                <!-- Modal content -->
+                <div id="voice-content">
+                    <span class="close">&times;</span>
+                    <p>Please check your invoice</p>
+                </div>
+
+            </div>
 </body>
 
 
