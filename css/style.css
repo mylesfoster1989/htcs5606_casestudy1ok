@@ -209,5 +209,14 @@ h1{
     z-index:-1;
 }
 
+.product{
 
+    display:inline-block;
+    margin: 50px;
+
+}
+.product img{
+    width:150px;
+    height:200px;
+}
 
