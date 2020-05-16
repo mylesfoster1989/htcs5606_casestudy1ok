@@ -1,5 +1,5 @@
 
-//logo animation moving right speed and length
+//logo animation moving right speed and length of time
 function leftDividerAnimation() {
     targetPic = document.getElementById("leftDivPic");
     x = 0;
@@ -14,7 +14,7 @@ function leftDividerAnimation() {
 //Logo animation end
 
 
-//add petfood to cart function and price of food using add to cart button
+//link the individual animal product and price whe clicking add to cart button
 function addToCart(e) {
     cart = document.getElementById("cartDiv");
     switch (e.id) {
@@ -313,9 +313,6 @@ function addToInvoice() {
 }
 //show invoice page
 
-/**
- * Show invoice page
- */
 function invoice() {
 
     voicePage = document.getElementById("voicePage");
@@ -337,6 +334,7 @@ function invoice() {
         }
 
 
+        //link food and price with individual product
         i = 0;
         while (i < cart.length) {
             console.log(cart[i].id);
