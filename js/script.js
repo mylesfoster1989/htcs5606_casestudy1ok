@@ -1,12 +1,5 @@
 
-
-/**
- * Purpose: logo animation
- *
- * @returns
- */
-//here belows
-//Left Divider Animation start
+//logo animation moving right speed and length
 function leftDividerAnimation() {
     targetPic = document.getElementById("leftDivPic");
     x = 0;
@@ -18,13 +11,14 @@ function leftDividerAnimation() {
         }
     }, 1000);
 }
-//Left Divider Animation end
+//Logo animation end
 
 
-
+//add petfood to cart function and price of food using add to cart button
 function addToCart(e) {
     cart = document.getElementById("cartDiv");
     switch (e.id) {
+
         case "addCat":
             qty = document.getElementById("catQty").value;
             cart
@@ -309,7 +303,7 @@ function addToCart(e) {
         default:
 
 
-        // code block
+
     }
 
 }
@@ -317,6 +311,7 @@ function addToCart(e) {
 function addToInvoice() {
 
 }
+//show invoice page
 
 /**
  * Show invoice page

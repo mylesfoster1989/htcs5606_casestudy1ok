@@ -1,158 +1,108 @@
+/*background colour*/
 body{
     background-color: yellow;
 
 }
-
+/*menu font and size*/
 h1{
 
     font-size: 40px;
     font-family: "Yu Gothic";
 }
-
+/*menu font size and font*/
 #navigation1{
     font-size: 40px;
     font-family: "Yu Gothic";
 
 }
 
-#navigation ul{
-
-    /*remove bullet point*/
-    list-style-type: none ;
-    text-align: center;
-
-    /*no space between ul and nav div*/
-
-    margin: 0;
-    padding: 0;
-    border: red 1px;
-
-
-}
-#navigation li{
-
-    /* move text to center*/
-    text-align: center;
-
-    /*move all list items to one line*/
-    display: inline;
-
-}
+/*distance between animal menu animations*/
 #navigation li a {
-    color: orange;
     margin: 20px;
 
     /*remove underscore ___for my hyper link*/
     text-decoration: none;
 
 }
-#navigation li a:hover{
-    background-color: black;
-    font-size: large;
-}
 
-#navigation li img{
-    width: 50px;
-    height: 50px;
-}
+/*align menu to center*/
 #navigation1 ul{
-
-    /*remove bullet point*/
-    list-style-type: none ;
     text-align: center;
 
     /*no space between ul and nav div*/
-
     margin: 0;
-    padding: 0;
-
-    border: red 1px;
-
 
 }
 #navigation1 li{
-
-    /* move text to center*/
-    text-align: center;
-
-    /*move all list items to one line*/
+    /*move all list menu items to one line*/
     display: inline;
 
 }
+/*menu font color, spacing between words*/
 #navigation1 li a {
     color: orange;
     margin: 20px;
 
-    /*remove underscore ___for my hyper link*/
+   /*remove underscore */
     text-decoration: none;
 
 }
+/*hover black when i put mouse pointer on menu word option*/
 #navigation1 li a:hover{
     background-color: black;
-    font-size: large;
+    font-size: xx-largelarge;
 }
 
-#navigation1 li img{
-    width: 50px;
-    height: 50px;
-}
 
+/*menu images centered and always showing when scrolling up or down page*/
 #navigation{
 
     text-align: center;
 
     position:fixed;
-
+    /*distance from bottm*/
     bottom: 0px;
-
+    /*use whole bottom of the web page*/
     width:100%;
 }
 
-#navigation ul{
-    margin: 0px;
-    padding: 0px;
-}
-
+/*put the whole menu on one horizontal line*/
 #navigation li{
     display: inline;
 }
-
+/*menu image size*/
 #navigation img{
     width: 50px;
     height: 50px;
 }
 
+/*picture size when putting mouse on animal menu*/
 #navigation img:hover{
     width: 100px;
     height: 100px;
 }
-#navigation li a:hover{
 
-    font-size: large;
-}
 
+/*animal menu rotate animation names and count*/
 #navigation img{
     animation-name: imageRotate1;
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
+/*animation command*/
 @keyframes imageRotate1 {
 
     from {transform: rotate(180deg);}
     to {transform: rotate(360deg); transform: scale(1);}
 
 }
-
+/*copyright align and back ground colour and font colour*/
 #footer{
-    background-color: #333;
+    background-color: gray;
     text-align: center;
     color:white;
 }
-/*
-*/
-/*here*/
-/* For main */
-
+/*qty input box size*/
 .qty {
     width:30px;
 }
@@ -184,7 +134,7 @@ h1{
 }
 /* The Close Button */
 .close {
-    color: #aaa;
+    color: black;
     float: right;
     font-size: 28px;
     font-weight: bold;
@@ -197,24 +147,26 @@ h1{
     cursor: pointer;
 }
 
+/*Logo height and width distance from everything*/
 #leftDiv{
     width: 50px;
-    height: 50px;
-    overflow:visible;
+    height: 70px;
 }
 
+/*logo image size and movement style */
 #leftDiv img{
     height:100px;
     position:relative;
-    z-index:-1;
 }
 
+/*pet food image display lay out and margin size*/
 .product{
 
     display:inline-block;
     margin: 50px;
 
 }
+/*pet food image size*/
 .product img{
     width:150px;
     height:200px;
